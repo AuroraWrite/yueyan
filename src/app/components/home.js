@@ -278,10 +278,10 @@ export default function Home() {
         className="w-full min-h-[90vh] flex flex-col md:flex-row items-center justify-center pt-32 md:pt-0 pb-10 md:pb-0 bg-gradient-to-br from-[#f7f7f7] via-[#fff] to-[#e5eaf3] relative overflow-hidden"
       >
         {/* 左侧品牌大图+渐变遮罩+柔光+Parallax */}
-        <div className="relative w-full md:w-1/2 flex justify-center items-center h-[400px] md:h-[600px]">
+        <div className="relative w-full md:w-1/2 flex justify-center items-center h-[400px] md:h-[1000px]">
           <img
             ref={heroImgRef}
-            src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
+            src="/imgs/1.jpg"
             alt="悦颜美容院环境"
             className="w-[90%] h-[90%] object-cover rounded-3xl shadow-2xl border-4 border-white transition-transform duration-500 will-change-transform"
             style={{ filter: 'brightness(0.95) blur(0.5px)' }}
@@ -392,7 +392,7 @@ export default function Home() {
         </div>
         <div className="w-full flex justify-center items-center">
           <img
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+            src="/imgs/2.jpg"
             alt="悦颜环境"
             className="w-full max-w-xl rounded-3xl shadow-2xl object-cover"
           />
