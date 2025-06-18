@@ -204,16 +204,7 @@ export default function Services() {
                 </div>
               </div>
               {/* 新增：前后对比图/客户故事 */}
-              <div className="mt-4 flex gap-4">
-                <img
-                  src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=200&q=80"
-                  className="w-20 h-20 rounded-xl object-cover shadow border-2 border-[#e0c3fc]/40"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80"
-                  className="w-20 h-20 rounded-xl object-cover shadow border-2 border-[#bfa980]/40"
-                />
-              </div>
+              <div className="mt-4 flex gap-4"></div>
               {/* 新增：合作品牌LOGO */}
               <div className="flex gap-2 mt-2 items-center"></div>
               <Link href="/contact" legacyBehavior>

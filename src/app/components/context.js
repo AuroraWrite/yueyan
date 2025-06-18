@@ -193,7 +193,7 @@ export default function Contact() {
         </motion.h3>
         <div className="rounded-3xl overflow-hidden shadow-xl border-2 border-[#e0c3fc]/30">
           <iframe
-            src="https://www.google.com/maps?q=中国重庆市大渡口区钢花路658号&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.393964479836!2d106.4826251!3d29.4772246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36ecb582e4b956fd%3A0xa17bf36e65ff8d3c!2z6Z2S6Z2S5Y2X5Lqs5a6M!5e0!3m2!1szh-CN!2scn!4v1718000000000!5m2!1szh-CN!2scn"
             width="100%"
             height="320"
             style={{ border: 0 }}
@@ -202,25 +202,6 @@ export default function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </section>
-
-      {/* 社交媒体icon区块 */}
-      <section className="max-w-5xl mx-auto py-8 flex flex-col items-center">
-        <div className="flex gap-8 mb-4">
-          <span className="w-12 h-12 rounded-full bg-gradient-to-br from-[#bfa980] to-[#e0c3fc] flex items-center justify-center text-white text-2xl shadow-lg hover:scale-110 transition">
-            <FaWeixin />
-          </span>
-          <span className="w-12 h-12 rounded-full bg-gradient-to-br from-[#e0c3fc] to-[#bfa980] flex items-center justify-center text-white text-2xl shadow-lg hover:scale-110 transition">
-            <FaWeibo />
-          </span>
-          <span className="w-12 h-12 rounded-full bg-gradient-to-br from-[#bfa980] to-[#e0c3fc] flex items-center justify-center text-white text-2xl shadow-lg hover:scale-110 transition">
-            <SiXiaohongshu />
-          </span>
-          <span className="w-12 h-12 rounded-full bg-gradient-to-br from-[#e0c3fc] to-[#bfa980] flex items-center justify-center text-white text-2xl shadow-lg hover:scale-110 transition">
-            <FaInstagram />
-          </span>
-        </div>
-        <div className="text-[#bfa980] text-lg">关注悦颜，获取更多美丽资讯</div>
       </section>
 
       {/* 品牌承诺/服务保障区块 */}
